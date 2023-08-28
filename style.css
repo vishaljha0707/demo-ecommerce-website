@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+
+}
+nav{
+    display: flex;
+}
+
+#nav{
+    /* background-color: red; */
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+   
+
+}
+#nav img{
+    object-fit:contain;
+margin-left: 45px;
+margin-top: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+#nav h5{
+    font-size: 20px;
+    color: black;
+ font-weight: 1;
+  padding: 0px 16px;
+  margin-top: 15px;
+}
+#nav h5:hover{
+color: lawngreen;
+}
+#side-panel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-right: 70px;
+}
+#side-panel img{
+    top: 10px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    
+  right: 25px;
+  margin-bottom: 2px;
+}
+#side-panel h5{
+    font-size: 18px;
+    
+    color: black;
+ font-weight: 1;
+  padding: 0px 16px;
+  margin-top: 15px;
+}
+.user-login{
+   
+    top: 10px;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    overflow: hidden;
+    padding-bottom: 2px;
+    margin-bottom: 3px;
+  right: 25px;
+  margin-left: 10px;
+}
+
+#page1{
+    position: relative;
+    display: flex;
+    top: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 30px;
+    right: 80px;
+}
+
+#page1-coveri-image{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+#leaf-image{
+    object-fit: contain;
+    width: 70px;
+    height: 70px;
+}
+#page1-img{
+    margin-left: 50px;
+}
+
+
+#page1-side-iteam{
+    width: 38%;
+   height: 100%;
+    position: relative;
+    left: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+#page1-side-iteam h4{
+    font-size: 25px;
+    font-weight: 700;
+}
+#page1-side-iteam h1{
+    font-size: 55px;
+    font-weight: 800;
+}
+#page1-side-iteam p{
+    font-size: 20px;
+    background-color: rgb(57, 240, 57);
+}
+
+#page1-side-iteam button{
+    position: relative;
+    font-size: 12px;
+    
+    justify-content: center;
+    align-items: self-start;
+    width: 31%;
+    height: 1%;
+    padding:0px 35px 30px 0px;
+    border-radius: 10px;
+    color: white;
+    border-radius: 20px;
+    
+
+ background-color: rgba(4, 67, 4, 0.851);
+    margin-bottom: 25px;
+}
+#shopimage{
+    object-fit:contain;
+    margin-left: 45px;
+    margin-top: 30px;
+        width: 20px;
+        height: 20px;
+}
+#page1-side-iteam button:hover{
+    background-color: rgb(117, 232, 117);
+}
+
+/* pae2 css */
+
+#page2{
+    position: relative;
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+    background-color: rgba(17, 9, 9, 0.671);
+}
+
+
+#box1{position: relative;
+    overflow: hidden;
+    color: white;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(34, 33, 33);
+    
+}
+#box2{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    width: 23%;
+    height: 70%;
+    background-color: rgb(34, 33, 33);
+}
+
+
+#box3{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    width: 23%;
+    height: 70%;
+    background-color: rgb(34, 33, 33);
+
+}
+#box4{
+color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    width: 23%;
+    height: 70%;
+    background-color: rgb(34, 33, 33);
+}
+#page2 img{
+    object-fit: contain;
+    width: 30px;
+    height: 30px;
+}
+
+/* page3css */
+
+
+
+#page3{
+    position: relative;
+display: flex;
+bottom: 300px;
+top: 50px;
+flex-direction: column;
+width: 100%;
+justify-content: center;
+align-items: center;
+height: 120vh;
+
+}
+#leaf-div h1{
+    font-size: 34px;
+    
+}
+#leaf-div{
+    position: relative;
+    bottom: 40px;
+}
+#leaf-div img{
+    object-fit: contain;
+    margin-left: 122px;
+    margin-top: 25px;
+}
+#product-list{
+    width: 80%;
+gap: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#product-list img{
+    object-fit: contain;
+    width: 350px;
+    height: 350px;
+}
+#product1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#product2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#product3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#product4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#product3 .pricing{
+    width: 20px;
+    height: 20px;
+}
+#product2 .pricing{
+    width: 20px;
+    height: 20px;
+}
+#product1 .pricing{
+    width: 20px;
+    height: 20px;
+}
+#product4 .pricing{
+    width: 20px;
+    height: 20px;
+}
+#basil-leaf-img{
+    display: flex;
+margin: auto;
+justify-content: center;
+align-items: center;
+
+}
+
+/* page4 css */
+
+#page4{
+    width: 100%;
+    height: 70vh;
+display: flex;
+gap: 35px;
+justify-content: space-evenly;
+align-items: center;
+
+}
+#listing1{
+    background-image: url(image/lemon-image.webp);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: flex-start;
+    width: 35%;
+    height: 70%;
+    background-color:rgb(234, 182, 182);
+
+}
+
+#listing1 h1{
+    margin-bottom: 90px;
+    margin-left: 70px;
+    font-size: 30px;
+}
+#listing1 p{
+    position: relative;
+    font-size: 20px;
+font-weight: 1;
+left: 30px;
+bottom: 80px;
+}
+#buttom-of-listing{
+    position: relative;
+    background-color: green;
+    bottom: 60px;
+    left: 20px;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+#buttom-of-listing img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    height: 20px;
+    margin: auto;
+}
+#right-arrow{
+    width: 20px;
+    object-fit: cover;
+    height: 20px;
+    margin: auto;
+}
+
+#listing2{
+    background-image: url(image/cabage.webp);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: flex-start;
+    width: 35%;
+    height: 70%;
+    background-color:rgb(234, 182, 182);
+
+}
+
+#listing2 h1{
+    margin-bottom: 90px;
+    margin-left: 70px;
+    font-size: 30px;
+}
+#listing2 p{
+    position: relative;
+    font-size: 20px;
+font-weight: 1;
+left: 30px;
+bottom: 80px;
+}
+#buttom-of-listing{
+    position: relative;
+    background-color: green;
+    bottom: 60px;
+    left: 20px;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+#buttom-of-listing img{
+    width: 20px;
+    object-fit: cover;
+    height: 20px;
+    margin: auto;
+}
+
+#listing3{
+    background-image: url(image/soyabean.webp);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: flex-start;
+    width: 35%;
+    height: 70%;
+    background-color:rgb(234, 182, 182);
+
+}
+
+#listing3 h1{
+    margin-bottom: 90px;
+    margin-left: 70px;
+    font-size: 30px;
+}
+#listing3 p{
+    position: relative;
+    font-size: 20px;
+font-weight: 1;
+left: 30px;
+bottom: 80px;
+}
+#buttom-of-listing{
+    position: relative;
+    background-color: green;
+    bottom: 60px;
+    left: 20px;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+#buttom-of-listing img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    margin: auto;
+}
+
+
+#listing2{
+    width: 35%;
+    height: 70%;
+    /* background-color: black; */
+
+}
+#listing3{
+    width: 35%;
+    height: 70%;
+    /* background-color: black; */
+
+}
+#page4-content{
+  
+    width: 80%;
+    height: 80%;
+display: flex;
+gap: 35px;
+justify-content: space-evenly;
+align-items: center;
+}
+
