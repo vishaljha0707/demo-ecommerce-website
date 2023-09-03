@@ -335,6 +335,7 @@ align-items: center;
 }
 #listing1{
     background-image: url(image/lemon-image.webp);
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -383,6 +384,7 @@ bottom: 80px;
 #listing2{
     background-image: url(image/cabage.webp);
     display: flex;
+    background-size: cover;
     flex-direction: column;
     justify-content: center;
     
@@ -423,6 +425,7 @@ bottom: 80px;
 #listing3{
     background-image: url(image/soyabean.webp);
     display: flex;
+    background-size: cover;
     flex-direction: column;
     justify-content: center;
     
@@ -482,4 +485,426 @@ gap: 35px;
 justify-content: space-evenly;
 align-items: center;
 }
+
+/* discount baner css/ */
+
+#page-no-5{
+    justify-content: center;
+   
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(31, 29, 29);
+}
+
+#discount-baner{
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#shopping-button-discount-barner{
+  
+    
+}
+#shopping-cart img{
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+}
+#discount25{
+    font-size: 25px;
+    position: relative;
+    margin-right: 50px;
+    right: 150px;
+    line-height: 1.3rem;
+
+   
+}
+
+
+#shopping-cart{
+  background-color:rgb(14, 115, 14);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 3px;
+    width: 150px;
+    height: 50px;
+padding: 0px 3px 0px 0px ;
+border-radius: 8px;
+    font-size: 13px;
+}
+
+/* trending product css */
+
+#trending-product{
+width: 100%;
+height: 120vh;
+
+}
+
+
+#page-no-6{
+    position: relative;
+display: flex;
+bottom: 300px;
+top: 50px;
+flex-direction: column;
+width: 100%;
+justify-content: center;
+align-items: center;
+height: 120vh;
+
+}
+#leaf-div h1{
+    font-size: 34px;
+    
+}
+#leaf-div{
+    position: relative;
+    bottom: 40px;
+}
+#leaf-div img{
+    object-fit: contain;
+    margin-left: 122px;
+    margin-top: 25px;
+}
+#product-list{
+    width: 80%;
+gap: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#product-list img{
+    object-fit: contain;
+    width: 350px;
+    height: 350px;
+}
+#product1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#product2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#product3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#product4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#product3 .pricing{
+    width: 20px;
+    height: 20px;
+}
+#product2 .pricing{
+    width: 20px;
+    height: 20px;
+}
+#product1 .pricing{
+    width: 20px;
+    height: 20px;
+}
+#product4 .pricing{
+    width: 20px;
+    height: 20px;
+}
+#basil-leaf-img{
+    display: flex;
+margin: auto;
+justify-content: center;
+align-items: center;
+
+}
+
+/* PAGE ON 7 CSS */
+
+#coustmer-review{
+    position: 
+    relative;
+    top: 50px;
+    width: 100%;
+    height: 60vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#page-no-7{
+    width: 100%;
+    height: 90vh;
+}
+
+#review{
+    position: relative;
+    top: 40px;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+}
+
+#review1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 5vh;
+    border-radius: 20px;
+    left: 20px;
+    width: 25%;
+    height: 50vh;
+    /* background-color: blue; */
+}
+#review1 img{
+    width: 50px;
+    height: 50px;
+}
+ #review1 .rating{
+    width: 150px;
+    height: 150px;
+    position: relative;
+   bottom: 40px;
+   
+}
+#review1 p{
+    position: relative;
+    bottom: 40px;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    margin: auto;
+}
+#review3 p{
+    position: relative;
+    bottom: 40px;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    margin: auto;
+}
+
+#clientimg2{
+    position: relative;
+    bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+}
+
+#review3 .rating{
+    width: 150px;
+    height: 150px;
+    position: relative;
+   bottom: 40px;
+   
+}
+#review2{
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    width: 35%;
+    height: 60vh;
+    background-size: cover;
+    background-image: url(https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/sydney-rae-668606-unsplash.jpg);
+}
+
+#review2 #h3{
+    position: relative;
+    top: 15px;
+    width: 60%;
+color: white;
+    font-size: 35px;
+}
+#review #pra{
+    position: relative;
+    bottom: 20px;
+    font-size: 20px;
+    color: white;
+    width: 80%;
+}
+#review2 #buttom-of-listing{
+    position: relative;
+    right: 20px;
+ 
+}
+
+#review3{
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 5vh;
+    right: 20px;
+    width: 25%;
+    height: 50vh;
+    /* background-color: blue; */
+}
+#featured-brand{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 100px;
+    /* background-color: red; */
+}
+
+footer{
+    background-color:rgb(62, 61, 61);
+    gap: 30px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div1{
+    position: relative;
+    left: 50px;
+    width: 30%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+#div1 img{
+    position: relative;
+    bottom: 60px;
+    left: 100px;
+    width: 150px;
+    border-radius: 15px;
+    height: 100px;
+}
+#div1 p{
+   font-size: 20px;
+   width: 80%;
+   margin-left: 30px;
+   font-weight: 1000;
+
+}
+#div2{
+    position: relative;
+   bottom: 40px;
+   right: 50px;
+
+    width: 30%;
+    height: 80%;
+    left: 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+#div2 #quicklinks{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+#div2 #quicklinks h1{
+    font-size: 30px;
+}
+#div2 #quicklinks h5{
+    font-size: 20px;
+}
+
+#div2 #sitelinks h1{
+    font-size: 30px;
+}
+#div2 #sitelinks h5{
+    font-size: 20px;
+}
+#div2 #sitelinks{
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+
+}
+#div3{
+    width: 30%;
+    position: relative;
+    height: 80%;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    /* background-color: gold; */
+    align-items: flex-start;
+    flex-direction: column;
+}
+#div3 #Download-Our-Mobile-App{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+
+}
+#div3 #Download-Our-Mobile-App h1{
+    position: relative;
+    bottom: 28px;
+    font-size: 25px;
+    font-weight: 1000;
+
+}
+#div3 #Download-Our-Mobile-App p{
+    font-size: 20px;
+    width: 80%;
+
+    font-weight: 1000;
+}
+#div3  #quick-links{
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+#div3  #quick-links a{
+    color: green;
+    font-size: 20px;
+    text-decoration: none;
+}
+
 
